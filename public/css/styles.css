@@ -1,0 +1,251 @@
+@charset "UTF-8";
+
+/* ID Sections */
+#header {
+  margin: 0;
+}
+
+#features {
+  font-family: Monserratt;
+  background-color: #FAEAB1;
+  text-align: center;
+  width: 100%;
+  height: auto;
+
+}
+
+#order {
+  background-color: rgb(255, 255, 255);
+}
+
+#pickup {
+  background-color: rgb(255, 255, 255); /* #FFD495 */
+}
+
+#footer {
+  font-family: Monserratt;
+  background-color: #FAAB78;
+}
+
+
+.navbar-custom {
+  background-color: #FFD495;
+}
+
+.header-image {
+  height: auto;
+  width: 100%;
+}
+
+.navbar-brand {
+  font-size: 3rem;
+  font-family: Monserratt;
+  font-weight: bold;
+  width: auto;
+}
+
+.list-group-horizontal {
+  align-items: center;
+}
+
+.nav-item {
+  text-align: center;
+  font-weight:bold;
+}
+
+
+/* Features */
+
+.features {
+  width: 60%;
+  height: auto;
+  margin: 0 20% 0 20%;
+  
+}
+
+.features h1 {
+  font-size: 4rem;
+}
+.features h3 {
+  font-size: 2.5rem;
+  font-family: Monserratt;
+  font-weight: bold;
+}
+.unordered{
+  width: 100%;
+}
+
+.links {
+  color:black;
+  text-decoration: none;
+}
+
+.links:hover {
+  color:grey;
+  text-decoration: none;
+}
+
+/* Feature One */
+
+.bagel1 {
+  height: auto;
+  width: 30%;
+  float: right;
+  margin-left: 10px;
+}
+
+.feature-one {
+  margin: 20px 0 50px 0;
+  text-align: left;
+  line-height: 2;
+}
+
+.feature-one h3 {
+  font-size: 3rem;
+}
+
+.feature-one p {
+  font-size: 1.2rem;
+}
+
+/* Feature Two */
+
+.feature-two {
+  /* margin: 20px 0 50px 0; */
+  text-align: left;
+  line-height: 2;
+}
+
+.feature-two li {
+  font-size: 1.2rem;
+}
+
+.feature-two p {
+  display: none;
+}
+.cater {
+  color: black;
+  font-weight: 400;
+  font-size: 1.5rem;
+}
+
+/* Cards */
+
+.card-image{
+  width: 100%;
+  height: 100%;
+}
+
+/* Buttons */
+
+/* Doordash */
+
+.btn-outline-danger {
+  background-color: white;
+  border-color: red;
+  color: red;
+}
+.btn-outline-danger:hover {
+  background-color: #ff3008;
+  border-color: #ff3008;
+  color: white;
+}
+
+/* Ubereats */
+
+.btn-outline-success {
+  background-color: white;
+  border-color: green;
+  color: green;
+}
+.btn-outline-success:hover {
+  background-color: #06c167;
+  border-color: #06c167;
+  color: white;
+}
+
+/* Postmates */
+
+.btn-outline-secondary {
+  background-color: white;
+  border-color: black;
+  color: black;
+}
+.btn-outline-secondary:hover {
+  background-color: black;
+  border-color: black;
+  color: white;
+}
+
+/* Order */
+.toast-card {
+  background-color: #ff3807;
+}
+
+
+/* Footer */
+.heart {
+  height: 15px;
+  width: 15px
+}
+
+
+@media screen and (max-width: 1240px) {
+  .features h1 {
+    display: none;
+  }
+  .bagel1 {
+    display: none;
+  }
+}
+
+
+@media screen and (max-width: 1000px) {
+  .features {
+    width: 80%;
+    height: auto;
+    margin: 0 10% 0 10%;
+  }
+  .feature-one p {
+    font-size: 2.0rem;
+  }
+
+  .feature-two {
+    margin: 10px 0 30px 0;
+  }
+  
+  .feature-two li {
+    font-size: 1.4rem;
+  }
+}
+
+
+@media screen and (max-width: 750px) {
+  hr {
+    border-top: 10px solid #8c8b8b;
+  }
+  .navbar-brand {
+    font-size: 2rem;
+  }
+  .features {
+    width: 94%;
+    height: auto;
+    margin: 0 1.5% 0 1.5%;   
+  }
+  .feature-one {
+    text-align: center;
+  }
+  .feature-one p {
+    font-size: 1.7rem;
+  }
+  .feature-two {
+    text-align: center;
+    line-height: 1.5;
+  }
+  .feature-two ul {
+    list-style: none;
+  }
+  .feature-two li {
+    font-size: 1.5rem;
+  }
+}
